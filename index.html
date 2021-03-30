@@ -1,0 +1,163 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Rock Mx</title>
+  <meta name="RockMx" content="La radio como siempre debió ser">
+  <meta name="Rock_Mx" content="radiostreaming">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+  
+  <script>
+    setInterval(
+      function refreshIFrame() {
+        document.getElementById("iframeid").src="http://204.12.193.98:8441/currentsong?sid=1"; 
+      },3000);
+  </script>
+  
+  
+</head>
+
+<body>
+  <section class="menu menu--circle">
+    <input type="checkbox" id="menu__active" />
+    <label for="menu__active" class="menu__active">
+      <div class="menu__toggle">
+        <div class="icon">
+          <div class="hamburger"></div>
+        </div>
+      </div>
+      <input type="radio" name="arrow--up" id="degree--up-0" />
+      <input type="radio" name="arrow--up" id="degree--up-1" />
+      <input type="radio" name="arrow--up" id="degree--up-2" />
+      <div class="menu__listings">
+        <ul class="circle">
+          <li>
+            <div class="placeholder">
+              <div class="upside">
+                <a href="https://www.facebook.com/alterRockmx" target="_blank" class="button"><i class="fa fa-pencil-square-o"></i></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="placeholder">
+              <div class="upside">
+                <a href="index.html" class="button"><i class="fa fa-music"></i></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="placeholder">
+              <div class="upside">
+                <a href="#">&nbsp</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="placeholder">
+              <div class="upside">
+                <a href="index.html" class="button"><i class="fa fa-music"></i></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="placeholder">
+              <div class="upside">
+                <a href="https://www.facebook.com/alterRockmx" target="_blank" class="button"><i class="fa fa-pencil-square-o"></i></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="placeholder">
+              <div class="upside">
+                <a href="contacto.html" class="button"><i class="fa  fa-envelope"></i></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="placeholder">
+              <div class="upside">
+                <a href="https://www.mixcloud.com/rockmx/" target="_blank" class="button"><i class="fa fa-podcast"></i></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="placeholder">
+              <div class="upside">
+                <a href="https://www.facebook.com/alterRockmx" target="_blank" class="button"><i class="fa fa-pencil-square-o"></i></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="placeholder">
+              <div class="upside">
+                <a href="contacto.html" class="button"><i class="fa  fa-envelope"></i></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="placeholder">
+              <div class="upside">
+                <a href="https://www.mixcloud.com/rockmx/" target="_blank" class="button"><i class="fa fa-podcast"></i></a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="menu__arrow menu__arrow--top">
+        <ul>
+          <li>
+            <label for="degree--up-0">
+              <div class="arrow"></div>
+            </label>
+            <label for="degree--up-1">
+              <div class="arrow"></div>
+            </label>
+            <label for="degree--up-2">
+              <div class="arrow"></div>
+            </label>
+          </li>
+        </ul>
+      </div>
+    </label>
+  </section>
+<div class="header">
+    <img src="../rockmx/image/logo.jpg" alt="rockmx" />
+</div>
+<div class="grid-container">
+  <div class="grid-item1">
+    
+    <audio controls src="http://204.12.193.98:8441/;" ></audio>
+    <br>
+    <p>Estas Escuchando :</p>
+    <br>
+    <div class="iframe">
+      <iframe id="iframeid" src="http://204.12.193.98:8441/currentsong?sid=1" scrolling="no"></iframe>
+    </div>
+    <br>
+    
+    
+
+  </div>
+  <div class="grid-item2">
+    <p>Rock Mx</p>
+    <p>La radio como siempre debió ser</p>
+    <p>Te traemos toda la música de las mejores décadas del Rock & Roll</p>
+    <p>Sin el afan de sentirnos especialistas en el género y con el unico fin de que la sigas disfrutando</p>
+    <p>Desde el lugar en que te encuentres y desde cualquier dispositivo</p>
+  </div>
+</div>
+
+<div id="footer">
+  <a href="https://pilares.cdmx.gob.mx/inicio">Hecha por Leonardo Farrera para Escuela de Codigo Pilares</a>
+</div> 
+   
+ 
+
+
+
+</body>
+</html>
